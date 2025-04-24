@@ -1,0 +1,5 @@
+chardet
+google-generativeai
+openai
+fpdf2
+Pillow

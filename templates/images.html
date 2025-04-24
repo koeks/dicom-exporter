@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Images in {{ folder }}</title>
+</head>
+<body>
+    <h1>Images in {{ folder }}</h1>
+    <p><a href="/">Back to Folder List</a></p>
+    <div>
+        {% for image in images %}
+        <img src="/extracted_images/{{ folder }}/{{ image }}" alt="{{ image }}" style="max-width: 300px; margin: 10px;">
+        {% else %}
+        <p>No images found in this folder.</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
