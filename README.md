@@ -1,15 +1,14 @@
-# dicom-exporter
+# DICOM Exporter
 
-Run app
+A simple tool for uploading and analyzing DICOM files.
 
+## 🚀 Getting Started
+
+### Run the App
+
+To start the web application:
+
+```bash
 python app.py
 
-Upload zip of .dicom files
-
-
-
-Run analyse
-
 python analyze.py
-
-
